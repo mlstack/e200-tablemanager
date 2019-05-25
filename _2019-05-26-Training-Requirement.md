@@ -5,8 +5,8 @@
 <li>1안 - Big Data 경험</li>
   <ul>
     <li>Big Data Architecture</li>
-    <li>Big Data Eco-System</li>
-    <li>Big Data Processing</li>
+    <li>Hadoop Eco-System</li>
+    <li>Hadoop Data Processing</li>
   </ul>
 <li>2안 - Analytics with Small Data</li>
   <ui>
@@ -14,6 +14,8 @@
     <li>Machine Learning</li>
     <li>Deep Learning</li>
 <li>3안 - Analytics with Big Data</li>
+    <li>Maching Learning using Hadoop/Spark<li>
+    <li>Deep Leaarnning using Sparkk</li>
 </ul>
 
 <h2>교육 훈련의 방향</h2>
