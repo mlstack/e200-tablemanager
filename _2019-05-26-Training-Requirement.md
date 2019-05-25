@@ -1,6 +1,13 @@
 <h1>Training Requirement</h1>
 
-<h2>교육 훈련의 범위</h2>
+<h2>교육 범위</h2>
+<ul>
+<li>1안 - Big Data Architecture & Big Data Processing</li>
+<li>2안 - Analytics with Small Data</li>
+<li>3안 - Analytics with Big Data</li>
+</ul>
+
+<h2>교육 훈련의 방향</h2>
 <ul>
 <li>1안 - 교양 강좌식 - "저런게 있구나..."</li>
 <li>2안 - 넓게 - 숲 보기</li>
