@@ -16,7 +16,7 @@
   </ul>
 <li>3안 - Analytics with Big Data</li>
     <li>Maching Learning using Hadoop/Spark<li>
-    <li>Deep Leaarnning using Sparkk</li>
+    <li>Deep Learnning using Spark</li>
 </ul>
 
 <h2>교육 훈련의 방향</h2>
