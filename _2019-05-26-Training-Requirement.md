@@ -2,7 +2,11 @@
 
 <h2>교육 범위</h2>
 <ul>
-<li>1안 - Big Data Architecture & Big Data Processing</li>
+<li>1안 - Big Data Processing</li>
+  <ul>
+    <li>Big Data Architecture</li>
+    <li>Big Data Eco-System</li>
+  </ul>
 <li>2안 - Analytics with Small Data</li>
 <li>3안 - Analytics with Big Data</li>
 </ul>
