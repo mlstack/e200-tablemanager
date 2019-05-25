@@ -9,10 +9,11 @@
     <li>Hadoop Data Processing</li>
   </ul>
 <li>2안 - Analytics with Small Data</li>
-  <ui>
+  <ul>
     <li>Statistic</li>
     <li>Machine Learning</li>
     <li>Deep Learning</li>
+  </ul>
 <li>3안 - Analytics with Big Data</li>
     <li>Maching Learning using Hadoop/Spark<li>
     <li>Deep Leaarnning using Sparkk</li>
