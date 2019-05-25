@@ -2,5 +2,15 @@
 
 <h2>교육 훈련의 범위</h2>
 <h2>교육 방식</h2>
-<li>강사가 선정한 커리큘럼</li>
+<ul>
+<li>Semi Project 수행</li>
+<li>실전 Project 수행</li>
+<li>Step By Step Training</li>
+</ul>
+
+
+
+
+
+
 
