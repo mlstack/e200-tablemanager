@@ -1,14 +1,34 @@
 <h1>Training Requirement</h1>
 
 <h2>교육 훈련의 범위</h2>
-<h2>교육 방식</h2>
 <ul>
-<li>1안. Semi Project 수행</li>
-<li>2안. 실전 Project 수행</li>
-<li>3안. Step By Step Training</li>
+<li>1안 - 교양 강좌식 - "저런게 있구나..."</li>
+<li>2안 - 넓게 - 숲 보기</li>
+<li>3안 - 깊게 - 숲속의 나무 보기</li>
+<li>4안 - 넓고 깊게 - 우리 숲은 이렇게 생겼어...</li>
 </ul>
 
 
+<h2>교육 진행 방향</h1>
+<ul>
+<li>1안 - 교양 강좌식 - "저런게 있구나..."</li>
+<li>2안 - 넓게 - 숲 보기</li>
+<li>3안 - 깊게 - 숲속의 나무 보기</li>
+<li>4안 - 넓고 깊게 - 우리 숲은 이렇게 생겼어...</li>
+</ul>
+
+
+
+<h2>교육 방식</h2>
+<ul>
+<li>1안 - Semi Project 수행</li>
+<li>2안 - 실전 Project 수행</li>
+<li>3안 - Step By Step Training</li>
+</ul>
+
+<ul>
+  <li></li>
+</ul>
 
 
 
