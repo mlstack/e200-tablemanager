@@ -16,7 +16,7 @@
   </ul>
 <li>3안 - Analytics with Big Data</li>
   <ul>
-    <li>Maching Learning using Hadoop/Spark<li>
+    <li>Maching Learning using Hadoop/Spark</li>
     <li>Deep Learnning using Spark</li>
    </ul>
 </ul>
