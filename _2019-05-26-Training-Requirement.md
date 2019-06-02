@@ -43,7 +43,7 @@
 <ul>
   <li></li>
 </ul>
-
+# ==2019-05-27(일)===
 <pre>
 테이블 매니져 ㅇㅇㅇ 교육
 강사 : 이이백
@@ -135,6 +135,94 @@ System
 - Spark Install
 
 </pre>
+
+# ==2019-06-02(일)===
+<pre>
+Biz Application의 구현을 위한 기본적인 S/W 사용의 흐름
+- 데이터 획득
+  - Source
+	  - Flat File : CSV, TSV, TXT, Json, Parquet 
+  	- DBMS : pyMongo(NoSQL), JDBC
+  - Acquisition in to AI System
+  	- Pandas : Data Frame(row, colum-> Row index, Column Name) vs Spark Data Fame
+  		- pandas.read_csv()
+  	- Numpy : Array(row, column) -> Matrix on math
+  	  - numpy.loadtxt() 
+- 분석용 변환
+  - Flat File을 분석기법의 Format에 맞게 transformation
+  - 기본적인 Supervised Learning의 Format [seqNumber, Label_Viv_Yn, numClicks, numCalls, ....]
+  - Time Series 
+  		- Single Label [DateTime, 다음날 종가, 종가, 시가, 저가, 고가, 종가, 거래량, 환율, .....]
+  		- Multi Label [DateTime, 다음날 종가, n+1종가, n+2,...., 종가, 시가, 저가, 고가, 종가, 거래량, 환율, .....]
+  - ETL 처리과정 : Extract - Transform - Loading
+
+- 분석(Analytics)
+	- pandas의 dataframe -> sklearn 
+	- numpy -> sklearn, tensorflow
+	- Supervised Learning : 예측(prediction), 원인규명(root cause analysis - RCA)
+	- Unsupervised Learning : Non Label Data -> Featurization
+		- 유사성(, abnormal)
+
+- 서비스(대고객서비스, 내부의 활용) 적용
+	- AI System에서 학습한 결과를 서비스시스템(tm)에 model(수식, binary file) embidding
+- 개선
+	- 모델의 정확도를 향상시키는 작업 
+- 확대 적용
+  - 다른 서비스 
+[Python Basic]
+- (java) import org.apache.spark.sql.SparkContext
+- (scala) java와 동일
+- (R) library(rpart)
+- (python) import pandas as pd 
+			pd.read_csv("/../xxx.csv")
+
+		  import numpy as np 
+		  np.loadtxt("/.../.../xx.csv")
+
+- 데이터 획득
+  - Source
+	  - Flat File : CSV, TSV, TXT, Json, Parquet 
+  	- DBMS : pyMongo(NoSQL), JDBC
+  - Acquisition in to AI System
+  	- Pandas : Data Frame(row, colum-> Row index, Column Name) vs Spark Data Fame
+  		- pandas.read_csv()
+  	- Numpy : Array(row, column) -> Matrix on math
+  	  - numpy.loadtxt() 
+
+- Python 개발 도구
+  - Console, Text Editor without Helper
+  - IDE : Pycharm(<-IntelliJ), Visual Code, Spyder(Anaconda)
+
+[REPL]
+Read: take user input.
+Eval: evaluate the input.
+Print: shows the output to the user.
+Loop: repeat.
+
+고객수, 합, 평균, 
+그룹(label=0,1)별 고객수, 합, 평균, 
+
+[통계 지식]
+- 평균, 표준편차, 왜도, 첨도
+- Percentile : 100% 
+- Decile : 10% 
+- Quantile(0%,25%,50%,75%,100%) - Boxplot - 기준치(임계치) 초과값 = 이상치, 극단치
+
+[Numpy]
+
+
+DecisiontreeClassifier
+- Split Cliterion Method = ['gini','entropy']
+DecisiontreeRegressor
+- Split Cliterion Method = ['mse']
+</pre>
+
+
+
+
+
+
+
 
 
 
