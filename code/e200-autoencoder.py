@@ -1,10 +1,10 @@
-[Title] Autoencoder using Tensorflow.Keras
-[Author] Yibeck Lee(yibec.Lee@gmail.com)
-[Contents]
- - Aucoencoder for Dimension Reduction
-[References]
- - https://towardsdatascience.com/pca-vs-autoencoders-1ba08362f450
- - https://medium.com/datadriveninvestor/deep-autoencoder-using-keras-b77cd3e8be95
+# [Title] Autoencoder using Tensorflow.Keras
+# [Author] Yibeck Lee(yibec.Lee@gmail.com)
+# [Contents]
+#  - Aucoencoder for Dimension Reduction
+# [References]
+#  - https://towardsdatascience.com/pca-vs-autoencoders-1ba08362f450
+#  - https://medium.com/datadriveninvestor/deep-autoencoder-using-keras-b77cd3e8be95
 
 from keras.layers import Input, Dense
 from keras.models import Model
@@ -39,8 +39,12 @@ autoencoder.fit(trainFeatures, trainFeatures,
 
 decoded_imgs = autoencoder.predict(trainFeatures)
 print(decoded_imgs)
+
 error_square = np.sum(error_square, axis=1)
 print(error_square)
+
+error_square = error**2
+error_square
 
 import matplotlib.pyplot as plt
 ind = np.arange(10) 
