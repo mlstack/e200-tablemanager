@@ -40,11 +40,15 @@ autoencoder.fit(trainFeatures, trainFeatures,
 decoded_imgs = autoencoder.predict(trainFeatures)
 print(decoded_imgs)
 
+error = trainFeatures - decoded_imgs
+
+error_square = error**2
+print(error_square)
+
 error_square = np.sum(error_square, axis=1)
 print(error_square)
 
-error_square = error**2
-error_square
+
 
 import matplotlib.pyplot as plt
 ind = np.arange(10) 
